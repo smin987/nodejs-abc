@@ -1,12 +1,12 @@
 import globals from "globals";
-// import tseslint from "typescript-eslint";
+import pluginJs from "@eslint/js";
 import pluginReact from "eslint-plugin-react";
 
 
 export default [
-  { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
-  { files: ["**/*.js"], languageOptions: { sourceType: "commonjs" } },
+  { files: ["**/*.{js,mjs,cjs,jsx}"] },
+  { files: ["**/*.js"], languageOptions: { sourceType: "commonjs, module" } },
   { languageOptions: { globals: globals.browser } },
-  ...tseslint.configs.recommended,
+  pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
 ];
