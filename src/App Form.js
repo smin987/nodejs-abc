@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
-import Movie from "./components/Movie";
-
 
 function App() {
-  return null
+
+  return (
+    <div>
+
+    </div >
+  )
 }
 
 export default App;
