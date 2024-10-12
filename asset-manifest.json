@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/nodejs-abc.git/static/js/main.1db3835b.js",
-    "index.html": "/nodejs-abc.git/index.html",
-    "main.1db3835b.js.map": "/nodejs-abc.git/static/js/main.1db3835b.js.map"
+    "main.js": "/nodejs-abc/static/js/main.92a961fb.js",
+    "index.html": "/nodejs-abc/index.html",
+    "main.92a961fb.js.map": "/nodejs-abc/static/js/main.92a961fb.js.map"
   },
   "entrypoints": [
-    "static/js/main.1db3835b.js"
+    "static/js/main.92a961fb.js"
   ]
 }
