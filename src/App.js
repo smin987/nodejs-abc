@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-import Movie from "./components/Movie";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Detail from "./routes/Detail";
 import Home from "./routes/Home";
